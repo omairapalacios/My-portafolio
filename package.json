@@ -1,0 +1,11 @@
+{
+  "name": "my-portafolio",
+  "version": "1.0.0",
+  "description": "about me and personal projects",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omaira Palacios",
+  "license": "ISC"
+}
