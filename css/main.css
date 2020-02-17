@@ -1592,7 +1592,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     opacity: .8;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 136, 73, 0.55) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(232, 255, 132, 0) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
