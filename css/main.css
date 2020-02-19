@@ -988,7 +988,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars li .progress {
     background: #000000;
-    background-image: linear-gradient(to right, #2affba, #ffce01);
+    background-image: linear-gradient(to right, #000000, #e004bbf2);
     position: relative;
     height: 100%;
 }
@@ -1771,7 +1771,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-social i {
-    font-size: 3rem;
+    font-size: 4rem;
     right: 0;
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
