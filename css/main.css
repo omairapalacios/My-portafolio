@@ -1765,7 +1765,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-social i, .home-social span {
     position: absolute;
     top: 0;
-    line-height: 9.6rem;
+    line-height: 8.6rem;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
