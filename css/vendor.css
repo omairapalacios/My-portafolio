@@ -655,7 +655,7 @@ a.pswp__share--download:hover {
     font-size: 1.8rem;
     line-height: 1.333;
     margin: 0 0 .6rem;
-    color: #FFFFFF;
+    color: #ffe100;
 }
 
 .pswp__caption small {
@@ -669,8 +669,8 @@ a.pswp__share--download:hover {
     margin: 0 auto;
     font-size: 13px;
     padding: 10px;
-    line-height: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    line-height: 28px;
+    color: #fff;
 }
 
 .pswp__caption--empty {
@@ -771,13 +771,31 @@ a.pswp__share--download:hover {
     margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .pswp__preloader {
         position: relative;
         left: auto;
         top: auto;
         margin: 0;
         float: right;
+    }
+    .pswp__caption h4 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .pswp__preloader {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin: 0;
+        float: right;
+    }
+    .pswp__caption__center {
+        margin: 0 auto;
+        letter-spacing: 0.7;
+        font-size: 18px;
     }
 }
 
