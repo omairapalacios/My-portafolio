@@ -119,8 +119,9 @@ p img {
 p.lead {
     font-family: "montserrat-regular", sans-serif;
     font-size: 2rem;
+    text-align: center;
     line-height: 1.8;
-    margin-bottom: 3.6rem;
+    margin: 3.6rem 17rem;
     color: #0D0A0B;
 }
 
@@ -1764,7 +1765,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## home social - (_site-layout.scss) 
  * ------------------------------------------------------------------- */
-
+.img-me {
+    width: 70%;
+    height: 50%;
+}
 .home-social {
     font-family: "montserrat-bold", sans-serif;
     list-style: none;
