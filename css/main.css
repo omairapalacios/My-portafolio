@@ -117,11 +117,10 @@ p img {
 }
 
 p.lead {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     line-height: 1.8;
-    margin: 3.6rem 17rem;
+    margin: 3.35rem 8rem;
     color: #0D0A0B;
 }
 
@@ -994,16 +993,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 5px 0px;
     margin: 10px;
     width: 55rem;
-    border: #ff00d6 1px solid;
+    border: #000000 1px solid;
 }
 
-.soft-bars li div:hover {
-    background: whitesmoke;
-    border: #ff00b3 1px solid;
-}
 .soft-bars li i{
-   font-size: 4rem;
-   color: #000;
+    font-size: 4rem;
+    color: #001061;
 }
 
 .tittle-skill {
@@ -1023,7 +1018,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars li .progress {
     background: #000000;
-    background-image: linear-gradient(to right, #000000, #e004bbf2);
+    background-image: linear-gradient(to right, #000000, #516bf0);
     position: relative;
     height: 100%;
 }
@@ -1034,10 +1029,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     top: -3.6rem;
     display: block;
     font-family: "montserrat-regular", sans-serif;
-    color: #FFFFFF;
+    color: #000000;
     font-size: 1.1rem;
     line-height: 1;
-    background: #000000;
+    background: #ffe100;
     padding: .6rem .6rem;
     border-radius: 3px;
 }
@@ -1370,7 +1365,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #000000 !important;
+    background-color: #071765!important;
     opacity: 0;
     visibility: hidden;
     z-index: 600;
@@ -1625,9 +1620,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background: -moz-linear-gradient(top, transparent 0%, rgb(76, 0, 49) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%,  rgb(76, 0, 49) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgb(76, 0, 49) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
+    background: linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
 }
 
@@ -1664,7 +1659,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.8rem;
     color: #ffe100;
     text-transform: uppercase;
-    letter-spacing: .5rem;
+    letter-spacing: .25rem;
     position: relative;
     padding-left: 80px;
     margin-left: -30px;
@@ -3007,7 +3002,16 @@ footer {
     font-size: 14px;
     text-align: center;
     color:#fff;
-    background: #000000;
+    background: #071765;
+}
+
+footer .tittle {
+    font-family: "librebaskerville", serif;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.8;
+    margin: 6rem 8rem;
+    color: #ffffff;
 }
 
 footer a, footer a:visited {
@@ -3049,23 +3053,17 @@ footer h3 {
 }
 
 .footer-social li {
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
-.footer-social li::after {
-    content: "|";
-    color:#000;
-    padding-left: .9rem;
-}
-
 .footer-social li i {
-    font-size: 2.7rem;
-    line-height: 3rem;
+    font-size: 4.5rem;
+    line-height: 5rem;
 }
 
 .footer-social li span {
-    margin-left: .6rem;
+    margin-left: 1rem;
 }
 
 .footer-social li p{
@@ -3144,7 +3142,7 @@ footer h3 {
  @media only screen and (min-width: 1024px) {
     .footer-social li {
         display: inline-block;
-        width: 30%;
+        width: 32%;
     }
 }
 
