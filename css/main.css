@@ -126,7 +126,8 @@ p.lead {
 
 @media only screen and (max-width: 800px) {
     p.lead {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+        margin: 3.3rem 3.5rem;
     }
 }
 
@@ -3038,12 +3039,13 @@ footer h3 {
 }
 
 .footer-social {
+    display: flex;
+    flex-direction: column;
     list-style: none;
     margin-left: 0;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
     text-transform: uppercase;
-    letter-spacing: .3rem;
 }
 
 .footer-social:after {
@@ -3060,10 +3062,6 @@ footer h3 {
 .footer-social li i {
     font-size: 4.5rem;
     line-height: 5rem;
-}
-
-.footer-social li span {
-    margin-left: 1rem;
 }
 
 .footer-social li p{
@@ -3149,21 +3147,25 @@ footer h3 {
 @media only screen and (max-width: 600px) {
     .footer-social li {
         margin-right: 1.8rem;
+        
     }
-    .footer-social li span, .footer-social li::after {
+    .footer-social li::after {
         display: none;
-    }
-    .footer-social li {
-        display: flex;
     }
     .footer-social li i {
         font-size: 1.8rem;
+    }
+
+    footer .tittle {
+        font-size: 1.7rem;
+        margin: 6rem 4rem;
     }
     .footer-bottom {
         padding-bottom: .6rem;
     }
     .footer-bottom .copyright span {
         display: block;
+        font-size: 1.2rem;
     }
     .footer-bottom .copyright span::after {
         display: none;
@@ -3175,11 +3177,10 @@ footer h3 {
         width: 100px;
     }
     .footer-social li {
-        margin-right: 1.2rem;
+        margin-right: 0.5rem;
     }
     .footer-social li i {
         font-size: 2.2rem;
-        margin-bottom: 1.8rem;
     }
 }
 
