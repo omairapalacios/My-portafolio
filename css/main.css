@@ -3039,7 +3039,6 @@ footer h3 {
 }
 
 .footer-social {
-    display: flex;
     flex-direction: column;
     list-style: none;
     margin-left: 0;
@@ -3095,6 +3094,8 @@ footer h3 {
 }
 
 
+
+
 /* ------------------------------------------------------------------- 
  * ## go to top
  * ------------------------------------------------------------------- */
@@ -3145,6 +3146,7 @@ footer h3 {
 }
 
 @media only screen and (max-width: 600px) {
+
     .footer-social li {
         margin-right: 1.8rem;
         
