@@ -1,2 +1,2 @@
 # My-portafolio
-About me and my projects :
+About me and my projects
