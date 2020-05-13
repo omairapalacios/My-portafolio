@@ -105,9 +105,15 @@
 }
 
 .box-code {
+	display: flex;
+	flex-direction: column;
 	margin-top: 20px;
+	text-align: center;
 	a {
-		width: 20%;
-		height: 20px;
+		margin-bottom: 20px;
+		background: rgb(140, 0, 255);
+		width: 100%;
+		padding:10px;
+		color: white;
 	}
 }
