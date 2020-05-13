@@ -1,559 +1,1040 @@
-<!DOCTYPE html5>
-<html class="no-js" lang="en">
-<!--<![endif]-->
-
-<head>
-
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <!-- BEGIN HEAD -->
+  <head>
+    <meta charset="utf-8" />
     <title>Omaira Palacios</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet" />
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- THEME STYLES -->
+    <link href="./sass/layout.css" rel="stylesheet" type="text/css" />
 
-</head>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <!-- END HEAD -->
 
-<body id="top">
+  <!-- BODY -->
+  <body id="body" data-spy="scroll" data-target=".header">
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container js_nav-item">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
 
-    <header class="s-header">
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
-                <li><a class="smoothscroll"  href="#about" title="about">Acerca de mí</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Proyectos</a></li>
-                <li><a class="smoothscroll"  href="#contact" title="contact">Contáctame</a></li>
-            </ul>
-        </nav>
-        <a class="header-menu-toggle" href="#0"><span>Menú</span></a>
-    </header> 
-    <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-        <div class="home-content">
-            <ul class="home-social">
-                <li>
-                    <a href="https://www.linkedin.com/in/omairapalacios/">
-                        <i class="im im-linkedin" aria-hidden="true">
-                        </i><span>LINKEDIN</span>
-                    </a>
+            <!-- Logo -->
+            <div class="logo">
+              <a class="logo-wrap" href="#body"> </a>
+            </div>
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="nav navbar-nav navbar-nav-right">
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#body">Inicio</a>
                 </li>
-                <li>
-                    <a href="https://github.com/omairapalacios">
-                        <i class="im im-github" aria-hidden="true"></i>
-                        <span>GITHUB</span>
-                    </a>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#about"
+                    >Acerca de</a
+                  >
                 </li>
-                <li>
-                    <a href="mailto:omairapalacios95@gmail.com"">
-                        <i class="im im-mail" aria-hidden="true"></i>
-                        <span>EMAIL</span>
-                    </a>
+          <!--       <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#experience"
+                    >Experiencia</a
+                  >
+                </li> -->
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#work">Mis Proyectos</a>
                 </li>
-            </ul> 
-            <div class="row home-content__main">
-                <h3>!Hola!</h3>
-                <h1>
-                    Soy Omaira Palacios, Frontend Developer
-                </h1>
-                <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">Mis Proyectos</a>
-                    <a href="https://drive.google.com/file/d/1XYXZqqeimbhmZZG455rqAq2AzZ1oc-U8/view" class="btn btn--stroke">Descarga mi CV</a>
-                </div>
-                <div class="home-content__scroll">
-                    <a href="#about" class="scroll-link smoothscroll">
-                        <span>Más sobre mí</span>
-                    </a>
-                </div>
+                <li class="js_nav-item nav-item">
+                  <a class="nav-item-child nav-item-hover" href="#contact"
+                    >Contáctame</a
+                  >
+                </li>
+              </ul>
             </div>
+          </div>
+          <!-- End Navbar Collapse -->
         </div>
-    </section> 
-    <section id="about" class="s-about target-section">
-        
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full text-center">
-                <h1>Acerca de mí</h1>
-                <p class="lead">Tengo 24 años, estudié Ingeniería Informática en la Universida Nacional
-                    de Piura, tuve la oportunidad de ingresar a Laboratoria, bootcamp de tecnología
-                    en el que desarrolle el perfil de Front-end Developer, trabajé en la creación de 
-                    productos digitales junto a equipos ágiles utilizando distintas herramientas,
-                    aplicando técnicas UX, y desarrollo basado en pruebas.
-                </p>
-                <p class="lead">
-                    Mi objetivo profesional se basa en adquirir nuevas competencias y habilidades 
-                    que me permitan crear soluciones digitales disruptivas, de alto impacto y de
-                    servicio a la sociedad. Considero que la pasión y disciplina son herramientas 
-                    clave para desarrollar una mejor versión de nosotros mismos. Disfruto asistir 
-                    a los eventos de comunidades de desarrolladores, compartir conocimiento junto 
-                    a gente con distintas perspectivas sobre las cosas, la diversidad para mí es la
-                    clave para generar mejores resultados.
-                </p>
-                <p class="lead">Aspiro a ser Full Stack Developer.</p>
-            </div>
-        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
 
-        <div class="row about-content">
-            <div class="col-six tab-full left">
-                <h3 class="tittle-skill">Habilidades Técnicas</h3>
-                <ul class="skill-bars">
-                    <li>
-                        <div class="progress percent90"><span>90%</span></div>
-                        <strong>HTML5</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div>
-                        <strong>CSS3</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div>
-                        <strong>Boostrap</strong>
-                    </li>
-                    <li>
-                        <div class="progress percent90"><span>90%</span></div>
-                        <strong>JavaScript</strong>
-                    </li>
-<!--                     <li>
-                        <div class="progress percent90"><span>90%</span></div>
-                        <strong>React</strong>
-                    </li> -->
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div>
-                        <strong>Nodejs</strong>
-                    </li>   
-                    <li>
-                        <div class="progress percent75"><span>70%</span></div>
-                        <strong>Express</strong>
-                    </li>  
-                    <li>
-                        <div class="progress percent85"><span>85%</span></div>
-                        <strong>Firebase</strong>
-                    </li>   
-                    <li>
-                        <div class="progress percent75"><span>75%</span></div>
-                        <strong>Mongo</strong>
-                    </li>   
-                </ul>
-            </div>
-            <div class="col-six tab-full right">
-                <ul class="soft-bars">
-                    <h3 class="tittle-skill">Habilidades Blandas</h3>
-                    <li>
-                        <div>
-                            <p class="skill">Autoaprendizaje</p>
-                            <i class="skill im im-book" aria-hidden="true"></i>
-                        </div>
-                    </li>   
-                    <li>
-                        <div> 
-                            <p class="skill">Gestión del tiempo</p>
-                            <i class="skill im im-clock" aria-hidden="true"></i>
-                        </div>  
-                    </li>   
-                    <li>
-                        <div>
-                            <p class="skill">Atención al detalle</p>
-                            <i class="skill im im-eye" aria-hidden="true"></i>
-                        </div>
-                        
-                    </li>   
-                    <li>
-                        <div>
-                            <p class="skill">Trabajo en equipo</p>
-                            <i class="skill im im-loop" aria-hidden="true"></i>
-                        </div>
-                        
-                    </li>   
-                </ul>
-            </div>
-        </div> 
-        <div class="row about-content about-content--timeline">
-    </section> 
-    <section id="works" class="s-works target-section">
-
-        <div class="row narrow section-intro has-bottom-sep">
-            <div class="col-full">
-                <h1>Mira mis últimos proyectos</h1>  
-                <p class="lead">Aquí hay algunos proyectos y las tecnologías con las que he estado trabajando recientemente.</p>
-            </div>
-        </div>
-
-        <div class="row masonry-wrap">
-            <div class="masonry">
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="Harry Potter: Wizard Unite Guide" data-size="1050x700">
-                                <img src="images/portfolio/beetle.jpg" 
-                                        srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Harry Potter :Wizard Unite Guide
-                            </h3>
-                            <p class="item-folio__cat">
-                                Tecnologias: HTML, CSS, JS
-                            </p>
-                        </div>
-
-                        <a href="https://github.com/omairapalacios/LIM011-data-lovers" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Aplicacion enciclopedica, basada en el famoso juego Harry Potter: Wizard Unite que permite conocer los personajes
-                                y sus caracteristicas principales con el que se logra una mejor experiencia a lo largo del juego.</p>
-                            <div class="links">     
-                                <a href="https://omairapalacios.github.io/LIM011-data-lovers/src/" class="links-project-demo">
-                                <span>Demo</span>
-                                </a>
-                                <a href="https://github.com/omairapalacios/LIM011-data-lovers" class="links-project-code">
-                                    <span>Código</span>
-                                </a>
-                            </div> 
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Red-Social-Aklla" data-size="1050x700">
-                                <img src="images/portfolio/lighthouse.jpg" 
-                                        srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Red - Social : AKLLA
-                            </h3>
-                            <p class="item-folio__cat">
-                                Tecnologías : Firebase, JS, Html y Css
-                            </p>
-                        </div>
-
-                        <a href="https://github.com/omairapalacios/LIM011-fe-social-network" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <div class="item-folio__caption">
-                            <p>Aplicación creada con el objetivo de compartir y promocionar el talento, técnica y pasión de artesanos 
-                                peruanos ante los ojos del mundo</p>
-                            <div class="links">     
-                                <a href="https://omairapalacios.github.io/LIM011-fe-social-network/src/" class="links-project-demo">
-                                <span>Demo</span>
-                                </a>
-                                <a href="https://github.com/omairapalacios/LIM011-fe-social-network" class="links-project-code">
-                                    <span>Código</span>
-                                </a>
-                            </div> 
-                        </div>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700" title="Md-links-library">
-                                <img src="images/portfolio/salad.jpg" 
-                                        srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Md-links - Librería
-                            </h3>
-                            <p class="item-folio__cat">
-                                Tecnologías : NodeJS, Markdown-it y Fetch
-                            </p>
-                        </div>
-
-                        <a href="https://cpalaciosanchez.gitbook.io/md-links/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Librería desarrollada con Node.js, que permite extraer links y estadisticas de archivos markdown</p>
-                            <div class="links">     
-                                <a href="https://cpalaciosanchez.gitbook.io/md-links/" class="links-project-demo">
-                                <span>Demo</span>
-                                </a>
-                                <a href="https://github.com/omairapalacios/LIM011-fe-md-links" class="links-project-code">
-                                    <span>Código</span>
-                                </a>
-                            </div> 
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-
-              <!--   <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/woodcraft.jpg"
-                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Woodcraft
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-<!-- 
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/skaterboy.jpg"
-                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Skaterboy
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Development
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div>
-                </div>  -->
-        <!--         <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/liberty.jpg"
-                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Liberty
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick -->
-<!-- 
-                <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/minimalismo.jpg"
-                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Minimalismo
-                            </h3>
-                            <p class="item-folio__cat">
-                                Web Design
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div> 
-                </div> -->
-                <!-- <div class="masonry__brick">
-                    <div class="item-folio">
-
-                        <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
-                                <img src="images/portfolio/shutterbug.jpg"
-                                    srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                                <span class="shadow-overlay"></span>
-                            </a>
-                        </div>
-
-                        <div class="item-folio__text">
-                            <h3 class="item-folio__title">
-                                Lady Shutterbug
-                            </h3>
-                            <p class="item-folio__cat">
-                                Branding
-                            </p>
-                        </div>
-
-                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                            <i class="im im-link"></i>
-                        </a>
-
-                        <span class="item-folio__caption">
-                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                        </span>
-
-                    </div>
-                </div>  -->
-
-            </div>
-        </div>
-
-    </section> <!-- end works -->
-
-
-    <footer id="contact">
-        <p class="tittle">Puede obtener más información sobre mi trabajo, o contactarme a través de :</p>
+    <!--========== SLIDER ==========-->
+    <div
+      class="promo-block parallax-window"
+      data-parallax="scroll"
+      data-image-src="img/1920x1080/01.jpg"
+      style="background-image:  linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);"
+    >
+      <div class="container">
         <div class="row">
-            <div class="col-full">
-                <ul class="footer-social">
-                    <li> 
-                    <div>
-                        <a href="https://www.linkedin.com/in/omairapalacios/">
-                            <i class="im im-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </div>
-                        <span>Linkedin</span>
-                        <p>@OmairaPalacios</p>
-                    </li>
-                    <li>
-                        <div>
-                            <a href="https://github.com/omairapalacios">
-                            <i class="im im-github" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <span>Github</span>
-                        <p>@omairapalacios</p>
-                    
-                    </li>
-                    <li>
-                        <div>
-                            <a href="">
-                            <i class="im im-mail" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <span>Email</span>
-                        <p>omairapalacios95@gmail.com</p>
-                    </li>
-                </ul>
-                    
+          <div class="col-sm-6">
+            <div class="promo-block-divider">
+              <p class="promo-block-text">¡Hola!,</p>
+              <h1 class="promo-block-title">Soy Omaira Palacios</h1>
+              <p class="promo-block-text">
+                Front-end Developer y Bach. Ingeniería Informática
+              </p>
+              <!--                             <p class="">"Cambiemos el Mundo a través de lineas de código"</p> -->
             </div>
+            <ul class="list-inline">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/omairapalacios/"
+                  class="social-icons"
+                  ><i class="icon-social-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/omairapalacios?tab=repositories"
+                  class="social-icons"
+                  ><i class="icon-social-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1XYXZqqeimbhmZZG455rqAq2AzZ1oc-U8/view"
+                  class="social-icons"
+                  ><i class="icon-doc"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row footer-bottom">
-            <div class="col-twelve">
-                <div class="copyright">
-                    <span>© Copyright Omaira Palacios 2020</span> 
-                </div>
-                <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div> 
-    </footer>
+        <!--// end row -->
+      </div>
+    </div>
+    <!--========== SLIDER ==========-->
 
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="about">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-3 sm-margin-b-30">
+            <div class="text-right sm-text-left">
+              <h2 class="margin-b-0">Acerca de mí</h2>
+              <p></p>
             </div>
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+          </div>
+          <div class="col-sm-8 col-sm-offset-1">
+            <div class="margin-b-60">
+              <p class="text-justify">
+                Tengo 24 años, estudié Ingeniería Informática en la Universida
+                Nacional de Piura, tuve la oportunidad de ingresar a
+                Laboratoria, bootcamp de tecnología en el que desarrolle el
+                perfil de Front-end Developer, trabajé en la creación de
+                productos digitales junto a equipos ágiles utilizando distintas
+                herramientas, aplicando técnicas UX, y desarrollo basado en
+                pruebas.
+              </p>
+              <p class="text-justify">
+                Mi objetivo profesional se basa en adquirir nuevas competencias
+                y habilidades que me permitan crear soluciones digitales
+                disruptivas, de alto impacto y de servicio a la sociedad.
+                Considero que la pasión y disciplina son herramientas clave para
+                desarrollar una mejor versión de nosotros mismos. Disfruto
+                asistir a los eventos de comunidades de desarrolladores,
+                compartir conocimiento junto a gente con distintas perspectivas
+                sobre las cosas, la diversidad para mí es la clave para generar
+                mejores resultados.
+              </p>
+
+              <p>Aspiro a ser Full Stack Developer.</p>
+            </div>
+            <h4>Habilidades Blandas</h4>
+            <hr>
+            <div class="soft-skill">
+              <div>
+                <p>Autoaprendizaje</p>
+                <p>Gestión del Tiempo</p>
+              </div>
+              <div>
+                <p>Orientación al servicio</p>
+                <p>Comunicación</p>
+              </div> 
+              <div>
+                <p>Trabajo en Equipo</p>
+                <p>Atención al detalle</p>
+              </div>  
+            </div>
+            <!-- Progress Box -->
+
+            <h4>Habilidades Técnicas</h4>
+            <hr />
+            <div class="progress-box">
+              <h5>
+                JAVASCRIPT<span class="color-heading pull-right">87%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="87"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>ANGULAR<span class="color-heading pull-right">75%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="75"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>REACT <span class="color-heading pull-right">70%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                CSS/SASS <span class="color-heading pull-right">85%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="85"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                BOOTSTRAP <span class="color-heading pull-right">85%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="85"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>
+                MATERIALIZE<span class="color-heading pull-right">85%</span>
+              </h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="85"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>NODEJS<span class="color-heading pull-right">80%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>EXPRESS<span class="color-heading pull-right">60%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="60"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>FIREBASE<span class="color-heading pull-right">80%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>MONGODB<span class="color-heading pull-right">60%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="60"
+                ></div>
+              </div>
+            </div>
+            <div class="progress-box">
+              <h5>JEST<span class="color-heading pull-right">75%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="75"
+                ></div>
+              </div>
+            </div>
+            <!-- <div class="progress-box">
+              <h5>WEBPACK<span class="color-heading pull-right">77%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="77"
+                ></div>
+              </div>
+            </div> -->
+            <div class="progress-box">
+              <h5>GIT<span class="color-heading pull-right">90%</span></h5>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  data-width="77"
+                ></div>
+              </div>
+            </div>
+            <!-- End Progress Box -->
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Experience -->
+  <!--   <div id="experience">
+      <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="container content-lg">
+          <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                <h2 class="margin-b-0">Experience</h2>
+                <p>Batman would be jealous.</p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+              <div class="row row-space-2 margin-b-4">
+                <div class="col-md-4 md-margin-b-4">
+                  <div class="service" data-height="height">
+                    <div class="service-element">
+                      <i class="service-icon icon-chemistry"></i>
+                    </div>
+                    <div class="service-info">
+                      <h3>HTML5/CSS3</h3>
+                      <p class="margin-b-5">
+                        Lorem ipsum dolor amet consectetur ut consequat siad
+                        esqudiat dolor
+                      </p>
+                    </div>
+                    <a
+                      href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+                      class="content-wrapper-link"
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-md-4 md-margin-b-4">
+                  <div
+                    class="service wow zoomIn"
+                    data-height="height"
+                    data-wow-duration=".3"
+                    data-wow-delay=".1s"
+                  >
+                    <div class="service-element">
+                      <i
+                        class="service-icon color-white icon-screen-tablet"
+                      ></i>
+                    </div>
+                    <div class="service-info">
+                      <h3 class="color-white">Photoshop</h3>
+                      <p class="color-white margin-b-5">
+                        Lorem ipsum dolor amet consectetur ut consequat siad
+                        esqudiat dolor
+                      </p>
+                    </div>
+                    <a
+                      href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+                      class="content-wrapper-link"
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="service" data-height="height">
+                    <div class="service-element">
+                      <i class="service-icon icon-badge"></i>
+                    </div>
+                    <div class="service-info">
+                      <h3>Front-end</h3>
+                      <p class="margin-b-5">
+                        Lorem ipsum dolor amet consectetur ut consequat siad
+                        esqudiat dolor
+                      </p>
+                    </div>
+                    <a
+                      href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes"
+                      class="content-wrapper-link"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!--// end row -->
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
+    </div> -->
+    <!-- End Experience -->
+
+    <!-- Work -->
+    <div id="work">
+      <div class="container content-lg">
+        <div class="row">
+          <div class="col-sm-3 sm-margin-b-30">
+            <div class="text-right sm-text-left">
+              <h2 class="margin-b-0">Mis proyectos</h2>
+              <p>Estos son mis últimos proyectos</p>
+            </div>
+          </div>
+          <div class="col-sm-8 col-sm-offset-1">
+            <!-- Masonry Grid -->
+            <div class="masonry-grid row row-space-2">
+              <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/01.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >cerrar</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Harry Potter: Wizards Unite</h3>
+                        <span>Mobile first desing</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="text-justify">
+                              Proyecto en Vanilla Javascript, 
+                              es una aplicación para aquellos que se inician en el famoso juego de Harry Potter: Wizard Unite, 
+                              y deseen conocer un poco más sobre esta saga. Se podŕa conocer a través de ella los personajes ,
+                              sus principales caracteristicas
+                              y hechizos (patronus), que le permitan al jugador lograr un gran desempeño en el juego.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Javascript,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >HTML,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >CSS Flexbox,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >y Jest.</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Laboratoria
+                            </p>
+                            <p class="margin-b-5">
+                              <strong>Customer:</strong> Wizard Unite: Guide for Gamers
+                            </p>
+                            <br>
+                            <div class="box-code margin-t-10 ">
+                              <a href="https://omairapalacios.github.io/LIM011-data-lovers/src/" class="">DEMO</a>
+                              <a href="https://github.com/omairapalacios/LIM011-data-lovers" class="">CÓDIGO</a>
                             </div>
+                          
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
+                <!-- End Work -->
+              </div>
+              <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/03.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >cerrar</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Dashboard Cayetano</h3>
+                        <span>Web</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="text-justify">
+                              Proyecto piloto realizado con un grupo de desarolladores voluntarios, con el objetivo de permitir el seguimiento
+                              remoto domiciliario de casos confirmados o sospechosos
+                              de COVID-19 de un hospital público de Lima.    
+                            </p>
+                            <p class="text-justify">
+                              Realizado bajo los lineamientos del Instituto de Medicina Tropical
+                              Alexander Von Humboldt de la Universidad Peruana Cayetano Heredia.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Javascript,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >CSS/SASS,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Nodejs</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  > y PostgreSQL</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5">
+                              <strong>Project Leader:</strong>  Johnny Ramos
+                            </p>
+                            <p class="margin-b-5">
+                              <strong>Customer:</strong> Hospital Cayetano Heredia
+                            </p>
+                            <br>
+                            <div class="box-code margin-t-10 ">
+                              <a href="https://dashboard-cayetano.us-south.cf.appdomain.cloud/" class="">DEMO</a>
+                              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6661154399311716352?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A6661154399311716352%2C6661285464663703552%29" class="">PUBLICACIÓN</a>
+                            </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                
+                <!-- End Work -->
+              </div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/04.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >cerrar</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Red Social - Aklla</h3>
+                        <span>SPA &amp; Responsive Design</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="text-justify">
+                              SPA responsive, creada con el objetivo de compartir y promocionar 
+                              talento, técnica y pasión de artesanos peruanos.
+                            </p>
+                            <p class="text-justify">
+                              Aklla, es una Red Social que esta dirigido a 2 grandes grupos de Usuarios:
+                            </p>
+                            <p >
+                              Personas que realizan artesanias y deseen compartir y promocionar sus mejores trabajos y aquellos 
+                              quienes admiren y deseen adquirir algun trabajo artistico.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Javascript,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >History API,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Firebase Auth,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Cloud Firestore,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Firebase Storage,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Jest,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >HTML,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  > y CSS Flexbox.</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Laboratoria
+                            </p>
+                            <p class="margin-b-5">
+                              <strong>Customer:</strong> Aklla
+                            </p>
+                            <br>
+                            <div class="box-code margin-t-10 ">
+                              <a href="https://omairapalacios.github.io/LIM011-fe-social-network/src/" class="">DEMO</a>
+                              <a href="https://github.com/omairapalacios/LIM011-fe-social-network" class="">CÓDIGO</a>
+                            </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div
+                class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
+              >
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/05.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >cerrar</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Burger Queen API</h3>
+                        <span>Web Server</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p>
+                              API REST que sirve JSON sobre HTTP, para la gestión de pedidos de un restaurante.
+                         
+                            </p>
+                            <p class="text-justify">
+                              La aplicación fue empaquetada en un contenedor de Docker y desplegada en un Droplet de Digital Ocean.
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Nodejs,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Expressjs,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  > Mongodb,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Docker,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >JWT, HTTP, Middlewares y Teste2e.</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Laboratoria
+                            </p>
+                            <p class="margin-b-5">
+                              <strong>Customer:</strong> Burger Queen
+                            </p>
+                            <br>
+                            <div class="box-code margin-t-10 ">
+                              <a href="https://laboratoria.github.io/burger-queen-api/" class="">DOCUMENTACIÓN</a>
+                              <a href="https://github.com/omairapalacios/LIM011-fe-burger-queen-api" class="">CÓDIGO</a>
+                            </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Work -->
+              </div>
+              <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                <!-- Work -->
+                <div class="work work-popup-trigger">
+                  <div class="work-overlay">
+                    <img
+                      class="full-width img-responsive"
+                      src="img/397x300/06.jpg"
+                      alt="Portfolio Image"
+                    />
+                  </div>
+                  <div class="work-popup-overlay">
+                    <div class="work-popup-content">
+                      <a href="javascript:void(0);" class="work-popup-close"
+                        >cerrar</a
+                      >
+                      <div class="margin-b-30">
+                        <h3 class="margin-b-5">Md-links Library</h3>
+                        <span> Librería con Nodejs</span>
+                      </div>
+                      <div class="row">
+                        <div
+                          class="col-sm-8 work-popup-content-divider sm-margin-b-20"
+                        >
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="text-justify">
+                              Librería desarrollada con Node.js para obtener 
+                              y analizar archivos en formato Markdown.
+                              verificar los links que contengan y reportar algunas estadísticas .
+                            </p>
+                            <p>
+                            </p>
+                            <ul class="list-inline work-popup-tag">
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >Nodejs,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >HTTP,</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >CLI</a
+                                >
+                              </li>
+                              <li class="work-popup-tag-item">
+                                <a
+                                  class="work-popup-tag-link"
+                                  href=""
+                                  >y Jest.</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-sm-4">
+                          <div class="margin-t-10 sm-margin-t-0">
+                            <p class="margin-b-5">
+                              <strong>Project Leader:</strong> Laboratoria
+                            </p>
+                            <p class="margin-b-5">
+                              <strong>Customer:</strong> Todos
+                            </p>
+                            <br>
+                            <div class="box-code margin-t-10 ">
+                              <a href="https://www.npmjs.com/package/@omairapalacios/md-links" class="">PUBLICACIÓN</a>
+                              <a href="https://github.com/omairapalacios/LIM011-fe-md-links#readme" class="">CÓDIGO</a>
+                            </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- End Work -->
+              </div>
             </div>
+            <!-- End Masonry Grid -->
+          </div>
         </div>
+        <!--// end row -->
+      </div>
     </div>
-    <div id="preloader">
-        <div id="loader"></div>
+    <!-- End Work -->
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="bg-color-sky-light">
+        <div class="container content-lg">
+          <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+              <div class="text-right sm-text-left">
+                <h2 class="margin-b-0">Contáctame</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+              <div class="row">
+                <div class="col-md-3 col-xs-12 md-margin-b-30">
+                  <h5>Celular:</h5>
+                  <a href="">+51 920 753 323</a>
+                </div>
+                <div class="col-md-3 col-xs-12">
+                  <h5>Email</h5>
+                  <a href="mailto:#">omairapalacios95@gmail.com</a>
+                </div>
+         <!--        <div class="col-md-3 col-xs-6">
+                  <h5>Web</h5>
+                  <a href="">alex.teseira.com</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <!--// end row -->
+        </div>
+      </div>
     </div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
 
-</body>
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+      <div class="content container">
+        <div class="row">
+          <div class="col-xs-6">
+         <!--    <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo" /> -->
+          </div>
+          <div class="col-xs-12 text-right sm-text-left">
+            <p class="margin-b-0">
+              <a class="fweight-700" href="preview/aircv/"
+                >Omaira Palacios - </a
+              >
+              &copy;
+              <a class="fweight-700" href="http://www.keenthemes.com/"
+                >2020</a
+              >
+            </p>
+          </div>
+        </div>
+        <!--// end row -->
+      </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
 
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">^</a>
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script
+      src="vendor/bootstrap/js/bootstrap.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script
+      src="vendor/jquery.smooth-scroll.js"
+      type="text/javascript"
+    ></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script
+      src="vendor/masonry/jquery.masonry.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="vendor/masonry/imagesloaded.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script
+      src="js/components/progress-bar.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+  </body>
+  <!-- END BODY -->
 </html>

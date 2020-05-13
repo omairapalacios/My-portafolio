@@ -1,0 +1,29 @@
+/*------------------------------------------------------------------
+  	[Promo Block]
+------------------------------------------------------------------*/
+
+.promo-block {
+	padding: 300px 0 180px;
+	background: linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
+	.promo-block-title {
+		@include font($size: 58px);
+		color: $color-white;
+		line-height: 1;
+		font-family: 'Enriqueta', serif;
+		@media (max-width: $screen-xs-min) {
+			@include font($size: 50px);
+		}
+	}
+
+	.promo-block-text {
+		@include font($size: 24px);
+		font-family: 'Nunito Sans', sans-serif;
+		color: $color-white;
+	}
+
+	.promo-block-divider {
+		border-bottom: 1px solid rgba(255,255,255,.4);
+		padding-bottom: 20px;
+		margin-bottom: 35px;
+	}
+}
