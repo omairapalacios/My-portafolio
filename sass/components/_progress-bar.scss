@@ -9,7 +9,7 @@
     }
 
     .progress-bar {
-        background: #ffd600;
+        background:linear-gradient(to left, #1934ff,#19e9eb);
         @include cubic-transition($delay: 0, $duration: 2000ms, $property: (all));
     }
 }

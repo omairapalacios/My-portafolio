@@ -176,7 +176,7 @@ h4 {
     margin-right: 5px;
   }
   .soft-skill div p {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 
@@ -299,7 +299,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .progress-box .progress-bar {
-  background: #ffd600;
+  background: -webkit-gradient(linear, right top, left top, from(#1934ff), to(#19e9eb));
+  background: linear-gradient(to left, #1934ff, #19e9eb);
   -webkit-transition-duration: 2000ms;
           transition-duration: 2000ms;
   -webkit-transition-property: all;
@@ -345,7 +346,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 300px 0 180px;
-  background-image: url("../../img/1920x1080/01.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b00a3), color-stop(#007ba1), to(#0019db));
+  background-image: linear-gradient(180deg, #1b00a3, #007ba1, #0019db);
 }
 
 .promo-block .promo-block-title {
