@@ -176,7 +176,7 @@ h4 {
     margin-right: 5px;
   }
   .soft-skill div p {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -346,8 +346,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 300px 0 180px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b00a3), color-stop(#007ba1), to(#0019db));
-  background-image: linear-gradient(180deg, #1b00a3, #007ba1, #0019db);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1b00a3), color-stop(#03c3ff), to(#0019db));
+  background-image: linear-gradient(180deg, #1b00a3, #03c3ff, #0019db);
 }
 
 .promo-block .promo-block-title {
@@ -580,7 +580,7 @@ fieldset[disabled] .btn-theme {
 
 .box-code a {
   margin-bottom: 20px;
-  background: #183e95;
+  background: #0142ff;
   width: 100%;
   padding: 10px;
   color: white;
