@@ -127,5 +127,11 @@ h4 { @include font($size: 22px); }
     margin-bottom: 20px;
     div{
         margin-right: 25px;
-    }
+        @media (max-width: $screen-sm-min) {
+            margin-right: 5px;
+            p {
+                font-size: 12px;
+            } 
+        }
+}
 }

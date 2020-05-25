@@ -171,6 +171,15 @@ h4 {
   margin-right: 25px;
 }
 
+@media (max-width: 768px) {
+  .soft-skill div {
+    margin-right: 5px;
+  }
+  .soft-skill div p {
+    font-size: 12px;
+  }
+}
+
 /*------------------------------------------------------------------
   	[Button]
 ------------------------------------------------------------------*/
@@ -337,22 +346,6 @@ fieldset[disabled] .btn-theme {
 .promo-block {
   padding: 300px 0 180px;
   background-image: url("../../img/1920x1080/01.jpg");
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 3, 244, 0.71)), to(rgba(18, 39, 78, 0.56)));
-  background: linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
-}
-
-@media (min-width: 480px) {
-  .promo-block {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 3, 244, 0.71)), to(rgba(18, 39, 78, 0.56)));
-    background: linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
-  }
-}
-
-@media (max-width: 768px) {
-  .promo-block {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 3, 244, 0.71)), to(rgba(18, 39, 78, 0.56)));
-    background: linear-gradient(to bottom, rgba(9, 3, 244, 0.71) 0%, rgba(18, 39, 78, 0.56) 100%);
-  }
 }
 
 .promo-block .promo-block-title {
@@ -585,7 +578,7 @@ fieldset[disabled] .btn-theme {
 
 .box-code a {
   margin-bottom: 20px;
-  background: #8c00ff;
+  background: #183e95;
   width: 100%;
   padding: 10px;
   color: white;
