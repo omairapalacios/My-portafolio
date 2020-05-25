@@ -7,3 +7,9 @@
 		@include size(64px, auto);
 	}
 }
+
+.icon-footer {
+	&:hover {
+		color: #00608f;
+	}
+}

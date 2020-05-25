@@ -180,6 +180,10 @@ h4 {
   }
 }
 
+.soft-skill #contact {
+  font-size: 17px;
+}
+
 /*------------------------------------------------------------------
   	[Button]
 ------------------------------------------------------------------*/
@@ -353,20 +357,28 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-title {
   font-size: 58px;
   color: #fff;
+  font-size: 60px;
   line-height: 1;
   font-family: 'Enriqueta', serif;
 }
 
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 
 .promo-block .promo-block-text {
-  font-size: 24px;
+  font-size: 20px;
+  font-size: 35px;
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
+}
+
+@media (max-width: 480px) {
+  .promo-block .promo-block-text {
+    font-size: 13px;
+  }
 }
 
 .promo-block .promo-block-divider {
@@ -592,6 +604,10 @@ fieldset[disabled] .btn-theme {
 .footer .footer-logo {
   width: 64px;
   height: auto;
+}
+
+.icon-footer:hover {
+  color: #00608f;
 }
 
 /*------------------------------------------------------------------
@@ -970,10 +986,8 @@ fieldset[disabled] .btn-theme {
   line-height: 3;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: #515769;
+  background: #003579;
   border-radius: 3px;
-  visibility: hidden;
-  opacity: 0;
   padding: 5px;
   -webkit-transform: translate3d(0, 50px, 0);
   transform: translate3d(0, 50px, 0);
@@ -1002,7 +1016,6 @@ fieldset[disabled] .btn-theme {
 /* The Button Becomes Visible */
 .back-to-top.back-to-top-is-visible {
   visibility: visible;
-  opacity: .6;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
   -webkit-transition-duration: 300ms;
@@ -1024,10 +1037,6 @@ fieldset[disabled] .btn-theme {
 }
 
 /* If the user keeps scrolling down, the button is out of focus and becomes less visible */
-.back-to-top.back-to-top-fade-out {
-  opacity: .4;
-}
-
 .back-to-top.back-to-top-fade-out:hover {
   opacity: 1;
   -webkit-transition-duration: 300ms;

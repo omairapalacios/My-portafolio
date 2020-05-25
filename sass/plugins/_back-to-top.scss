@@ -13,10 +13,8 @@
     line-height: 3;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: $color-heading;
+    background: #003579;
     @include border-radius(3px);
-    visibility: hidden;
-    opacity: 0;
     padding: 5px;
     @include translate3d(0,50px,0);
     @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
@@ -36,7 +34,6 @@
 .back-to-top {
     &.back-to-top-is-visible {
         visibility: visible;
-        opacity: .6;
         @include translate3d(0,0,0);
         @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 
@@ -50,8 +47,6 @@
 /* If the user keeps scrolling down, the button is out of focus and becomes less visible */
 .back-to-top {
     &.back-to-top-fade-out {
-        opacity: .4;
-
         &:hover {
             opacity: 1;
             @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));

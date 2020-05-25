@@ -8,18 +8,22 @@
 	.promo-block-title {
 		@include font($size: 58px);
 		color: $color-white;
-	
+		font-size: 60px;
 		line-height: 1;
 		font-family: 'Enriqueta', serif;
 		@media (max-width: $screen-xs-min) {
-			@include font($size: 50px);
+			@include font($size: 30px);
 		}
 	}
 
 	.promo-block-text {
-		@include font($size: 24px);
+		@include font($size: 20px);
+		font-size: 35px;
 		font-family: 'Nunito Sans', sans-serif;
 		color: $color-white;
+		@media (max-width: $screen-xs-min) {
+			@include font($size: 13px);
+		}
 	}
 
 	.promo-block-divider {
