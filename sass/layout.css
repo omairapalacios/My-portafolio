@@ -217,6 +217,7 @@ h4 {
   .icon-cv {
     margin-left: 10px;
     margin-top: 10px;
+    padding: 5px 12px;
   }
 }
 
@@ -368,6 +369,12 @@ fieldset[disabled] .btn-theme {
   transition-property: all;
   -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
           transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
 }
 
 .social-icons:hover {

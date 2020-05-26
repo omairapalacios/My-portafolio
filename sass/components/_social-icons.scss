@@ -13,6 +13,9 @@
 	padding: 14px;
 	@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 
+	@media (max-width: $screen-sm-min) {
+    display: none;
+    }
 	&:hover {
 		color: $color-heading;
 		background: $color-white;
