@@ -1,4 +1,12 @@
-
+/* eg: @include user-select(none); */
+/* eg: @include rotate(45deg); */
+/* eg: @include translate3d(0,0,0); */
+/* eg: @include border-radius(3px); */
+/* eg: @include visibility-backface(hidden); */
+/*------------------------------------------------------------------
+  	[The "base.scss" contains basic default element styles
+  		(colors, typography, margins & padding).]
+------------------------------------------------------------------*/
 html {
   overflow-x: hidden;
 }
@@ -385,8 +393,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 300px 0 180px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 187, 231, 0.52)), to(#0056d9)), url("../../img/1920x1080/home.jpg");
-  background-image: linear-gradient(to top, rgba(0, 187, 231, 0.52), #0056d9), url("../../img/1920x1080/home.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 187, 231, 0.52)), to(#0056d9)), url("https://github.com/omairapalacios/My-portafolio/blob/gh-pages/img/1920x1080/home.jpg");
+  background-image: linear-gradient(to top, rgba(0, 187, 231, 0.52), #0056d9), url("https://github.com/omairapalacios/My-portafolio/blob/gh-pages/img/1920x1080/home.jpg");
   /* 	background-image: linear-gradient(180deg, #1b00a3, #03c3ff, #0019db),  url(../../img/01.jpg); */
 }
 
