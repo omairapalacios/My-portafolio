@@ -393,9 +393,8 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 300px 0 180px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 187, 231, 0.52)), to(#0056d9)), url(https://i.imgur.com/WmeckJn.jpg);
-  background-image: linear-gradient(to top, rgba(0, 187, 231, 0.52), #0056d9), url(https://i.imgur.com/WmeckJn.jpg);
-  /* 	background-image: linear-gradient(180deg, #1b00a3, #03c3ff, #0019db),  url(../../img/01.jpg); */
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(137, 0, 106, 0.84)), to(#0019d3)), url(https://i.imgur.com/WmeckJn.jpg);
+  background-image: linear-gradient(to top, rgba(137, 0, 106, 0.84), #0019d3), url(https://i.imgur.com/WmeckJn.jpg);
 }
 
 .promo-block .promo-block-title {
@@ -636,7 +635,7 @@ fieldset[disabled] .btn-theme {
 
 .box-code a {
   margin-bottom: 20px;
-  background: #0142ff;
+  background: #9e0674;
   width: 100%;
   padding: 10px;
   color: white;

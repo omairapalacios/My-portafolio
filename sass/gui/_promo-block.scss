@@ -4,9 +4,7 @@
 
 .promo-block {
 	padding: 300px 0 180px;
-	background-image:
-	linear-gradient(to top, rgba(0, 187, 231, 0.52), #00097f), url(https://i.imgur.com/WmeckJn.jpg);
-/* 	background-image: linear-gradient(180deg, #1b00a3, #03c3ff, #0019db),  url(../../img/01.jpg); */
+	background-image: linear-gradient(to top, rgba(137, 0, 106, 0.84), #0019d3), url(https://i.imgur.com/WmeckJn.jpg);
 	.promo-block-title {
 		@include font($size: 58px);
 		color: $color-white;
