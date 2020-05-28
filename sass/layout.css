@@ -423,9 +423,11 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.31);
   border-bottom: 1px solid rgba(0, 0, 0, 0.31);
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   margin-bottom: 35px;
+  padding-top: 30px;
 }
 
 /*------------------------------------------------------------------
