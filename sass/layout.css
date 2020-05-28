@@ -198,12 +198,12 @@ h4 {
 
 .icon-cv {
   background: #ffe100;
-  padding: 10px 17px;
+  padding: 10px 25px;
   text-align: center;
   cursor: pointer;
   margin-left: 20px;
+  font-size: 14px;
   color: #11141dc2;
-  border: 1px solid #11141dc2;
 }
 
 .icon-cv:hover {
@@ -634,11 +634,12 @@ fieldset[disabled] .btn-theme {
 }
 
 .box-code a {
+  font-size: 12px;
   margin-bottom: 20px;
-  background: #9e0674;
+  background: #e8e40e;
   width: 100%;
   padding: 10px;
-  color: white;
+  color: #11141dd9;
 }
 
 /*------------------------------------------------------------------
@@ -1091,7 +1092,7 @@ fieldset[disabled] .btn-theme {
 }
 
 /*------------------------------------------------------------------
-  	[Form Control]
+[Form Control]
 ------------------------------------------------------------------*/
 .form-control {
   height: 50px;

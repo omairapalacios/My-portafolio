@@ -152,13 +152,12 @@ h4 { @include font($size: 22px); }
 }
 .icon-cv {
     background: #ffe100;
-    padding: 10px 17px;
-
+    padding: 10px 25px;
     text-align: center;
     cursor: pointer;
     margin-left: 20px;
+    font-size: 14px;
     color: #11141dc2;
-border:1px solid #11141dc2;
 
 &:hover {
 

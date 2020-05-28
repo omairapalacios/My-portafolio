@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------
-  	[Form Control]
+[Form Control]
 ------------------------------------------------------------------*/
 
 .form-control {
@@ -14,7 +14,7 @@
     padding-left: 15px;
 
     &:focus {
-    	color: $color-heading;
+        color: $color-heading;
         @include placeholder($color-heading);
         box-shadow: none;
     }
