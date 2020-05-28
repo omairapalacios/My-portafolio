@@ -6,7 +6,7 @@
 	display: inline-block;
 	@include size(50px);
 	@include font($size: 22px);
-	color: $color-white;
+	color:#11141d;
 	text-align: center;
 	border-radius: 50%;
 	vertical-align: middle;
@@ -17,8 +17,8 @@
     display: none;
     }
 	&:hover {
-		color: $color-heading;
-		background: $color-white;
+		color:#11141d;
+		background: rgba(11, 236, 227, 0.69);
 		@include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 	}
 }

@@ -207,7 +207,7 @@ h4 {
 }
 
 .icon-cv:hover {
-  background: rgba(141, 161, 250, 0.1);
+  background: rgba(11, 236, 227, 0.69);
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
   color: #11141ded;
@@ -340,10 +340,10 @@ fieldset[disabled] .btn-theme {
 }
 
 .progress-box .progress-bar {
-  background: -webkit-gradient(linear, right top, left top, from(#1934ff), to(#19e9eb));
-  background: linear-gradient(to left, #1934ff, #19e9eb);
-  -webkit-transition-duration: 2000ms;
-          transition-duration: 2000ms;
+  background: -webkit-gradient(linear, right top, left top, from(#faff19), to(#19e9eb));
+  background: linear-gradient(to left, #faff19, #19e9eb);
+  -webkit-transition-duration: 2100ms;
+          transition-duration: 2100ms;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -358,7 +358,7 @@ fieldset[disabled] .btn-theme {
   width: 50px;
   height: 50px;
   font-size: 22px;
-  color: #fff;
+  color: #11141d;
   text-align: center;
   border-radius: 50%;
   vertical-align: middle;
@@ -378,8 +378,8 @@ fieldset[disabled] .btn-theme {
 }
 
 .social-icons:hover {
-  color: #515769;
-  background: #fff;
+  color: #11141d;
+  background: rgba(11, 236, 227, 0.69);
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
   -webkit-transition-property: all;
@@ -393,13 +393,11 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 .promo-block {
   padding: 300px 0 180px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(137, 0, 106, 0.84)), to(#0019d3)), url(https://i.imgur.com/WmeckJn.jpg);
-  background-image: linear-gradient(to top, rgba(137, 0, 106, 0.84), #0019d3), url(https://i.imgur.com/WmeckJn.jpg);
 }
 
 .promo-block .promo-block-title {
   font-size: 58px;
-  color: #fff;
+  color: #11141d;
   font-size: 60px;
   line-height: 1;
   font-family: Hind, sans-serif;
@@ -415,7 +413,7 @@ fieldset[disabled] .btn-theme {
   font-size: 20px;
   font-size: 25px;
   font-family: 'Nunito Sans', sans-serif;
-  color: #fff;
+  color: #11141d;
 }
 
 @media (max-width: 480px) {
@@ -425,7 +423,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-divider {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.31);
   padding-bottom: 20px;
   margin-bottom: 35px;
 }
@@ -665,7 +663,6 @@ fieldset[disabled] .btn-theme {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
   -webkit-transition-property: all;
@@ -848,7 +845,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #fff;
+  color: #11141d;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
@@ -975,7 +972,7 @@ fieldset[disabled] .btn-theme {
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
     background: #fff;
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #e1e5f2;
     -webkit-transition-duration: 300ms;
             transition-duration: 300ms;
     -webkit-transition-property: all;

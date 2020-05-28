@@ -3,11 +3,11 @@
 ------------------------------------------------------------------*/
 
 .promo-block {
+	
 	padding: 300px 0 180px;
-	background-image: linear-gradient(to top, rgba(137, 0, 106, 0.84), #0019d3), url(https://i.imgur.com/WmeckJn.jpg);
 	.promo-block-title {
 		@include font($size: 58px);
-		color: $color-white;
+		color: #11141d;
 		font-size: 60px;
 		line-height: 1;
 		font-family: Hind, sans-serif;
@@ -20,14 +20,14 @@
 		@include font($size: 20px);
 		font-size: 25px;
 		font-family: 'Nunito Sans', sans-serif;
-		color: $color-white;
+		color: #11141d;
 		@media (max-width: $screen-xs-min) {
 			@include font($size: 13px);
 		}
 	}
 
 	.promo-block-divider {
-		border-bottom: 1px solid rgba(255,255,255,.4);
+		border-bottom: 1px solid rgba(0, 0, 0, 0.31);
 		padding-bottom: 20px;
 		margin-bottom: 35px;
 	}

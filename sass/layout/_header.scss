@@ -13,7 +13,7 @@
 .header {
 	.navbar {
 		margin-bottom: 0;
-        border-bottom: 1px solid rgba(255,255,255,.2);
+    
         @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
 	}
 }
@@ -157,7 +157,7 @@
 		@include position(relative);
 		display: block;
 		@include font($size: 13px, $weight: 600, $family: $font-family-base);
-        color: $color-white;
+        color: #11141d;
 		text-transform: uppercase;
 		line-height: 55px;
 		padding: 20px;
@@ -301,7 +301,7 @@
         .header {
             .navbar {
                 background: $color-white;
-                border-bottom-color: #f0f0f0;
+                border-bottom-color: #e1e5f2;
                 @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
             }
 
