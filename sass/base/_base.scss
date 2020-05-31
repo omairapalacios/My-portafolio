@@ -143,6 +143,10 @@ h4 { @include font($size: 22px); }
 
 }
 
+p {
+font-weight: 300;
+}
+
 .list-inline {
     
 @media (max-width: $screen-sm-min) {

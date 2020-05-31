@@ -184,6 +184,10 @@ h4 {
   font-size: 17px;
 }
 
+p {
+  font-weight: 300;
+}
+
 @media (max-width: 768px) {
   .list-inline {
     display: -webkit-box;
@@ -392,7 +396,7 @@ fieldset[disabled] .btn-theme {
   	[Promo Block]
 ------------------------------------------------------------------*/
 .promo-block {
-  padding: 300px 0 180px;
+  padding: 200px 0 180px;
 }
 
 .promo-block .promo-block-title {
@@ -418,16 +422,19 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width: 480px) {
   .promo-block .promo-block-text {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 
 .promo-block .promo-block-divider {
-  border-top: 1px solid rgba(0, 0, 0, 0.31);
   border-bottom: 1px solid rgba(0, 0, 0, 0.31);
   padding-bottom: 25px;
   margin-bottom: 35px;
   padding-top: 30px;
+}
+
+.ilustracion {
+  width: 99%;
 }
 
 /*------------------------------------------------------------------
@@ -636,7 +643,7 @@ fieldset[disabled] .btn-theme {
 .box-code a {
   font-size: 12px;
   margin-bottom: 20px;
-  background: #e8e40e;
+  background: #ffe100;
   width: 100%;
   padding: 10px;
   color: #11141dd9;
@@ -1029,7 +1036,7 @@ fieldset[disabled] .btn-theme {
   line-height: 3;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: #003579;
+  background: #17bed2;
   border-radius: 3px;
   padding: 5px;
   -webkit-transform: translate3d(0, 50px, 0);
